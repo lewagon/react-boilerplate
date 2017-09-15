@@ -3,7 +3,8 @@
   "rules": {
     "no-console": "off",
     "comma-dangle": "off",
-    "quotes": "off"
+    "quotes": "off",
+    "react/prop-types": 0
   },
   "env": {
     "browser": true
