@@ -4,7 +4,9 @@
     "no-console": "off",
     "comma-dangle": "off",
     "quotes": "off",
-    "react/prop-types": 0
+    "react/prop-types": 0,
+    "arrow-body-style": 0,
+    "space-before-function-paren": 0
   },
   "env": {
     "browser": true
