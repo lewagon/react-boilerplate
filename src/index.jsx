@@ -10,4 +10,4 @@ import '../assets/stylesheets/application.scss';
 const Hello = props => <h1>Hello, {props.name}</h1>;
 
 // render an instance of the component in the DOM
-ReactDOM.render(<Hello name="Boris" />, document.querySelector('.container'));
+ReactDOM.render(<Hello name="World" />, document.querySelector('.container'));
