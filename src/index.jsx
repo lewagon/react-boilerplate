@@ -1,13 +1,11 @@
-// external modules
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-// internal modules
 import '../assets/stylesheets/application.scss';
 
+const Hello = props => <div>Hello, {props.name}</div>;
 
-// A simple example of a functional component
-const Hello = props => <h1>Hello, {props.name}</h1>;
-
-// render an instance of the component in the DOM
-ReactDOM.render(<Hello name="World" />, document.querySelector('.container'));
+const root = document.getElementById('root');
+if (root) {
+  ReactDOM.render(<Hello name="World" />, root);
+}
